@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class SliderZoneEffect : MonoBehaviour
 {
-    public RectTransform slider;   // แท่งสีขาว
-    public Transform player;       // ตัวผู้เล่น
+    public RectTransform slider;   
+    public Transform player;       
 
     [Header("Zone UI")]
     public RectTransform greenZone;
@@ -17,18 +17,14 @@ public class SliderZoneEffect : MonoBehaviour
     {
         float x = slider.anchoredPosition.x;
 
-        // ?? เช็คอยู่ในโซนไหนจาก UI
         if (IsInsideZone(x, greenZone))
         {
-            // ?? เขียว
             player.Translate(Vector3.up * greenForce * Time.deltaTime);
         }
         else if (IsInsideZone(x, yellowZone))
         {
-            // ?? เหลือง
             player.Translate(Vector3.up * yellowForce * Time.deltaTime);
         }
-        // ?? นอกนั้น = แดง
     }
 
     bool IsInsideZone(float x, RectTransform zone)

@@ -2,9 +2,14 @@
 
 public class AutoMoveSlider : MonoBehaviour
 {
-    public float autoSpeed = 100f;   // วิ่งเองไปซ้าย
-    public float scrollSpeed = 80f;  // แรงเม้าส์
+    [Header("Movement Settings")]
+    public float autoSpeed = 100f;       // ความเร็วเริ่มต้น
+    public float maxAutoSpeed = 500f;    // ความเร็วสูงสุด
+    public float acceleration = 5f;      // ความเร็วจะเพิ่มขึ้น
 
+    public float scrollSpeed = 80f;      // แรงเม้าส์
+
+    [Header("Boundary Settings")]
     public float minX = -92f;
     public float maxX = 90f;
 
@@ -17,16 +22,18 @@ public class AutoMoveSlider : MonoBehaviour
 
     void Update()
     {
+        if (autoSpeed < maxAutoSpeed)
+        {
+            autoSpeed += acceleration * Time.deltaTime;
+        }
+
         float x = rect.anchoredPosition.x;
 
-        // ✅ วิ่งไปทางซ้าย
         x -= autoSpeed * Time.deltaTime;
 
-        // ✅ ลูกกลิ้ง (ยังคุมได้ทั้งซ้าย-ขวา)
         float scroll = Input.GetAxis("Mouse ScrollWheel");
         x += scroll * scrollSpeed;
 
-        // ✅ จำกัดขอบ (ไม่เด้งกลับ)
         x = Mathf.Clamp(x, minX, maxX);
 
         rect.anchoredPosition = new Vector2(x, rect.anchoredPosition.y);
