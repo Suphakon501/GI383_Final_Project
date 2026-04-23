@@ -5,7 +5,7 @@ public class AutoMoveSlider : MonoBehaviour
     [Header("Movement Settings")]
     public float autoSpeed = 100f;       // ความเร็วเริ่มต้น
     public float maxAutoSpeed = 500f;    // ความเร็วสูงสุด
-    public float acceleration = 5f;      // ความเร็วจะเพิ่มขึ้น
+    public float acceleration = 3f;      // ความเร็วจะเพิ่มขึ้น
 
     public float scrollSpeed = 80f;      // แรงเม้าส์
 

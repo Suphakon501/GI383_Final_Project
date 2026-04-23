@@ -28,7 +28,7 @@ public class PlayerCollision : MonoBehaviour
 
     void GameOver()
     {
-        Debug.Log("Game Over! หลอดเต็มแล้ว");
+        Debug.Log("Game Over!");
         Time.timeScale = 0; 
     }
 }
