@@ -2,39 +2,47 @@ using UnityEngine;
 
 public class SliderZoneEffect : MonoBehaviour
 {
-    public RectTransform slider;   
-    public Transform player;       
+    public RectTransform slider;
+    public Transform player;
 
     [Header("Zone UI")]
     public RectTransform greenZone;
     public RectTransform yellowZone;
+    public RectTransform redZone; // 1. à¾ÔèÁªèÍ§ãÊè UI ÊÕá´§
 
     [Header("Float Force")]
-    public float greenForce = 5f;
-    public float yellowForce = 2f;
+    public float greenForce = 8f;
+    public float yellowForce = 5f;
+    public float redForce = 2f;    // 2. à¾ÔèÁáÃ§¼ÅÑ¡ÊÓËÃÑºÊÕá´§
 
     void Update()
     {
-        float x = slider.anchoredPosition.x;
-
-        if (IsInsideZone(x, greenZone))
+        // 3. à¾ÔèÁà§×èÍ¹ä¢¡ÒÃàªç¤ Overlap ¢Í§â«¹á´§
+        if (IsOverlapping(slider, greenZone))
         {
             player.Translate(Vector3.up * greenForce * Time.deltaTime);
         }
-        else if (IsInsideZone(x, yellowZone))
+        else if (IsOverlapping(slider, yellowZone))
         {
             player.Translate(Vector3.up * yellowForce * Time.deltaTime);
         }
+        else if (IsOverlapping(slider, redZone)) // àªç¤â«¹á´§à¾ÔèÁ
+        {
+            player.Translate(Vector3.up * redForce * Time.deltaTime);
+        }
     }
 
-    bool IsInsideZone(float x, RectTransform zone)
+    bool IsOverlapping(RectTransform rect1, RectTransform rect2)
     {
-        float center = zone.anchoredPosition.x;
-        float halfWidth = zone.rect.width / 2f;
+        // ¶éÒäÁèä´éÅÒ¡ Object ãÊèã¹ªèÍ§ Inspector ãËé¢éÒÁä»¡èÍ¹à¾×èÍ¡Ñ¹ Error
+        if (rect1 == null || rect2 == null) return false;
 
-        float min = center - halfWidth;
-        float max = center + halfWidth;
+        float min1 = rect1.anchoredPosition.x - (rect1.rect.width * rect1.pivot.x);
+        float max1 = min1 + rect1.rect.width;
 
-        return x >= min && x <= max;
+        float min2 = rect2.anchoredPosition.x - (rect2.rect.width * rect2.pivot.x);
+        float max2 = min2 + rect2.rect.width;
+
+        return min1 <= max2 && max1 >= min2;
     }
 }
