@@ -1,0 +1,1388 @@
+fileFormatVersion: 2
+guid: 84b00c24f5d565b428752c47f5b9de9b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloodcell_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 4530
+        width: 880
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e65de1965ad16c4a9281f1054bd2363
+      internalID: -1967777564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_1
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 4530
+        width: 881
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9290af77158e66f4d85b00665199774a
+      internalID: -502118224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_2
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 4530
+        width: 881
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2020b2cfa849b4c98bc93577d4e01f
+      internalID: 967205213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_3
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 4526
+        width: 881
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ab5071b63f90a4ba07cf99eee648ff
+      internalID: 218113158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_4
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 4525
+        width: 881
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575b55fae5929f24da18ddf4c29197d2
+      internalID: -321510438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_5
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 4525
+        width: 881
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d652cd22eaae442be2306eb67186bf
+      internalID: -1591578979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_6
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 4520
+        width: 881
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781223baf593cf845b0eeb306517a910
+      internalID: 469951579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_7
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 4515
+        width: 880
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94ede4d95f907d44aab2d647fdbb465
+      internalID: -1625220776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3795
+        width: 880
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb1ef43e1ea0234788fa307cb5353dc
+      internalID: -1746092787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_9
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 3790
+        width: 881
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cba9e323a03d74082e7f4377cffd5c
+      internalID: 2082620715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_10
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 3785
+        width: 881
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cfc79612c1d4740b977c4122f15f09
+      internalID: -515102119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_11
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 3780
+        width: 881
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805ac014c6a52b94bbf019a800daaae8
+      internalID: -1993568573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_12
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 3775
+        width: 881
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906267be3585df04897435fbe25e6fa1
+      internalID: 56534352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_13
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 3770
+        width: 881
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3242f0fbd9989f2439d4c77152468e8f
+      internalID: 1900742696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_14
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 3765
+        width: 881
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4070ae5ad67291449afd12824f965825
+      internalID: -2102047672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_15
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 3760
+        width: 880
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f87f8ffc447d041a7f1e5c45c20fef
+      internalID: -204181996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3035
+        width: 880
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151b7b21f6738884dab6e87734534f69
+      internalID: 132923512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_17
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 3030
+        width: 881
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dee54f3cbc34f840b13944bacbeb9dd
+      internalID: -1384229826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_18
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 3029
+        width: 881
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd3c165bcdc1b843b233f1bad7f929a
+      internalID: -1413433242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_19
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 3024
+        width: 881
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb59d66edd207b4d9861c1a73e16645
+      internalID: 778682422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_20
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 3019
+        width: 881
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff51c25c412c0f740aa61aebc2e1f33c
+      internalID: 1251996403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_21
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 3019
+        width: 881
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbc58d77f6a8cd4ab4a4e6dc9a5ba97
+      internalID: -10715547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_22
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 3014
+        width: 881
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211f021fb799b5740877d50820940460
+      internalID: -119477445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_23
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 3014
+        width: 880
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30284d84addcf15459a1803ce9836f07
+      internalID: -1855367358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2289
+        width: 880
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ed5468ebb78a54480e9f586d08ab25
+      internalID: -79328344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_25
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 2289
+        width: 881
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88112a593f03cfd4e82e57ad47f077b1
+      internalID: 1539296489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_26
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2287
+        width: 881
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ad5a3cd94d25949814692e81ece8dc
+      internalID: 1289634178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_27
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 2286
+        width: 881
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ea1e9500bc7bf4188848799eea30ce
+      internalID: 949676395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_28
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 2289
+        width: 881
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4eafa7736e2f34a9a8f0cbd9af43e6
+      internalID: 1792632330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_29
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 2289
+        width: 881
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d046f0475a0c9478e84ffb3c3aa6ec
+      internalID: 1022674949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_30
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 2289
+        width: 881
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d8308115ac9c45bdfa025fa6f11b0
+      internalID: 1987031826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_31
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 2294
+        width: 880
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0b4f33b9afa6347a86fed135610a5b
+      internalID: 639587637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1573
+        width: 880
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2a348c7c4cc3b4cbfddd9d65c0d839
+      internalID: 805578873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_33
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1578
+        width: 881
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428db3a10e258f14ba0f0e9d17299f7b
+      internalID: 1539903026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_34
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1579
+        width: 881
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae34f8d07fe4694bac07a00816daef1
+      internalID: 7966955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_35
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 1584
+        width: 881
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842b84ddbf89d8e4bb6fde67081abee6
+      internalID: -330248164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_36
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 1588
+        width: 881
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820feb6f0319e464697e7564e9cf7f0a
+      internalID: 1812476520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_37
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 1593
+        width: 881
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d85923d98cf5074ebadc14537a5b52d
+      internalID: 2054162456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_38
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 1594
+        width: 881
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adb0a90b6b7b0c4ba55312699bcbabe
+      internalID: 2127677089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_39
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 1599
+        width: 880
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6520c9795aded4b9d264e8aa6c5aee
+      internalID: -991586072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_40
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 883
+        width: 880
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3180558d2de3594cb9f63dff9f72109
+      internalID: 1521120956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_41
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 888
+        width: 881
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d27abbef80f6b7418b2e2180fc88c22
+      internalID: 2120008090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_42
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 893
+        width: 881
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16f5740b77b1d8499981cf75a13b55e
+      internalID: 545971247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_43
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 898
+        width: 881
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275bd8a153b171148bc07e2bf4776a4b
+      internalID: 1836957824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_44
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 903
+        width: 881
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf31a01bec6cfd49983a97793d0f696
+      internalID: 1866878328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_45
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 903
+        width: 881
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0617e0e98f4734e4d9d802a8bd5d429c
+      internalID: 711613242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_46
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 908
+        width: 881
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8372ef3bca86310409061027a5502160
+      internalID: 1349013182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_47
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 913
+        width: 880
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ae0375a896f2e43979d1bf5373b264
+      internalID: 808057245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 193
+        width: 880
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71de138ca61c38847bb2fb26eb6d4b87
+      internalID: 1976516620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_49
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 198
+        width: 881
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55814f83554eedc4ead0bc9497e915c3
+      internalID: -1223586773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_50
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 203
+        width: 881
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed7c01a38e832448bacd795cc8ab58b
+      internalID: -281963339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_51
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 203
+        width: 881
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec5ced78465fcd47b1b18552a0c2552
+      internalID: -1597862753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodcell_52
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 203
+        width: 881
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177a013a216c59a499350c433452a4bd
+      internalID: 546426225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c8020617e93add45acef7d3f737702f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloodcell_0: -1967777564
+      bloodcell_1: -502118224
+      bloodcell_10: -515102119
+      bloodcell_11: -1993568573
+      bloodcell_12: 56534352
+      bloodcell_13: 1900742696
+      bloodcell_14: -2102047672
+      bloodcell_15: -204181996
+      bloodcell_16: 132923512
+      bloodcell_17: -1384229826
+      bloodcell_18: -1413433242
+      bloodcell_19: 778682422
+      bloodcell_2: 967205213
+      bloodcell_20: 1251996403
+      bloodcell_21: -10715547
+      bloodcell_22: -119477445
+      bloodcell_23: -1855367358
+      bloodcell_24: -79328344
+      bloodcell_25: 1539296489
+      bloodcell_26: 1289634178
+      bloodcell_27: 949676395
+      bloodcell_28: 1792632330
+      bloodcell_29: 1022674949
+      bloodcell_3: 218113158
+      bloodcell_30: 1987031826
+      bloodcell_31: 639587637
+      bloodcell_32: 805578873
+      bloodcell_33: 1539903026
+      bloodcell_34: 7966955
+      bloodcell_35: -330248164
+      bloodcell_36: 1812476520
+      bloodcell_37: 2054162456
+      bloodcell_38: 2127677089
+      bloodcell_39: -991586072
+      bloodcell_4: -321510438
+      bloodcell_40: 1521120956
+      bloodcell_41: 2120008090
+      bloodcell_42: 545971247
+      bloodcell_43: 1836957824
+      bloodcell_44: 1866878328
+      bloodcell_45: 711613242
+      bloodcell_46: 1349013182
+      bloodcell_47: 808057245
+      bloodcell_48: 1976516620
+      bloodcell_49: -1223586773
+      bloodcell_5: -1591578979
+      bloodcell_50: -281963339
+      bloodcell_51: -1597862753
+      bloodcell_52: 546426225
+      bloodcell_6: 469951579
+      bloodcell_7: -1625220776
+      bloodcell_8: -1746092787
+      bloodcell_9: 2082620715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
