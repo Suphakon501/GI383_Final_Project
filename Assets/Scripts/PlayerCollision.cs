@@ -6,13 +6,23 @@ public class PlayerCollision : MonoBehaviour
     public Slider ldlSlider;      
     public float increaseAmount = 10f; 
 
+    [Header("Particle Effect")]
+    public GameObject hitParticle; // ?? ใส่ prefab particle ตรงนี้
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("LDL"))
         {
+            // ?? สร้าง particle ตอนชน
+            if (hitParticle != null)
+            {
+                Instantiate(hitParticle, other.transform.position, Quaternion.identity);
+            }
+
             AddLDL();
-            //ชนแล้วอยากให้สีเหลืองหายไปเลย
-            // Destroy(other.gameObject); 
+
+            // ลบ object
+            Destroy(other.gameObject); 
         }
     }
 

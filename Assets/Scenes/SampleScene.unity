@@ -1221,6 +1221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ldlSlider: {fileID: 1803124058}
   increaseAmount: 10
+  hitParticle: {fileID: 4784970108369951314, guid: 83d756718b850d84f9c386138ce5be22, type: 3}
 --- !u!70 &845208597
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
