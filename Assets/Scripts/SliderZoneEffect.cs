@@ -8,33 +8,53 @@ public class SliderZoneEffect : MonoBehaviour
     [Header("Zone UI")]
     public RectTransform greenZone;
     public RectTransform yellowZone;
-    public RectTransform redZone; // 1. เพิ่มช่องใส่ UI สีแดง
+    public RectTransform redZone;
 
     [Header("Float Force")]
     public float greenForce = 8f;
     public float yellowForce = 5f;
-    public float redForce = 2f;    // 2. เพิ่มแรงผลักสำหรับสีแดง
+    public float redForce = 2f;
+
+    [Header("Animation")]
+    public Animator animator;
+
+    private string currentState = "";
 
     void Update()
     {
-        // 3. เพิ่มเงื่อนไขการเช็ค Overlap ของโซนแดง
-        if (IsOverlapping(slider, greenZone))
+        bool inGreen = IsOverlapping(slider, greenZone);
+        bool inYellow = IsOverlapping(slider, yellowZone);
+        bool inRed = IsOverlapping(slider, redZone);
+
+        if (inGreen)
         {
             player.Translate(Vector3.up * greenForce * Time.deltaTime);
+            PlayAnim("normal");   
         }
-        else if (IsOverlapping(slider, yellowZone))
+        else if (inYellow)
         {
             player.Translate(Vector3.up * yellowForce * Time.deltaTime);
+            PlayAnim("Phase2");
         }
-        else if (IsOverlapping(slider, redZone)) // เช็คโซนแดงเพิ่ม
+        else
         {
             player.Translate(Vector3.up * redForce * Time.deltaTime);
+            PlayAnim("Phase3");
         }
+    }
+
+    void PlayAnim(string stateName)
+    {
+        if (animator == null) return;
+
+        if (currentState == stateName) return;
+
+        animator.Play(stateName);
+        currentState = stateName;
     }
 
     bool IsOverlapping(RectTransform rect1, RectTransform rect2)
     {
-        // ถ้าไม่ได้ลาก Object ใส่ในช่อง Inspector ให้ข้ามไปก่อนเพื่อกัน Error
         if (rect1 == null || rect2 == null) return false;
 
         float min1 = rect1.anchoredPosition.x - (rect1.rect.width * rect1.pivot.x);
