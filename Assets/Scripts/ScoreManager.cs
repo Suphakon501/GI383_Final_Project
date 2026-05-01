@@ -1,12 +1,16 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public int score = 0;
-    public float interval = 1f; // กี่วินาทีต่อ 1 คะแนน
-    private float timer = 0f;
+    public float score = 0;
+
+    [Header("Score Settings")]
+    public float greenScorePerSecond = 1.5f;
+    public float yellowScorePerSecond = 1f;
+    public float redScorePerSecond = 0f;
+
+    private float currentScoreRate = 0f;
 
     public TMP_Text scoreText;
     public bool isRunning = true;
@@ -15,19 +19,28 @@ public class ScoreManager : MonoBehaviour
     {
         if (!isRunning) return;
 
-        timer += Time.deltaTime;
+        score += currentScoreRate * Time.deltaTime;
 
-        if (timer >= interval)
-        {
-            score += 1;
-            timer = 0f; // รีเซ็ต
-            DisplayScore();
-        }
+        DisplayScore();
     }
 
     void DisplayScore()
     {
-        scoreText.text = score.ToString();
+        scoreText.text = score.ToString("0");
     }
 
+    public void EnterGreenZone()
+    {
+        currentScoreRate = greenScorePerSecond;
+    }
+
+    public void EnterYellowZone()
+    {
+        currentScoreRate = yellowScorePerSecond;
+    }
+
+    public void EnterRedZone()
+    {
+        currentScoreRate = redScorePerSecond;
+    }
 }

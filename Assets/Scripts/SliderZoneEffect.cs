@@ -18,6 +18,9 @@ public class SliderZoneEffect : MonoBehaviour
     [Header("Animation")]
     public Animator animator;
 
+    [Header("Score")]
+    public ScoreManager scoreManager;
+
     private string currentState = "";
 
     void Update()
@@ -29,16 +32,24 @@ public class SliderZoneEffect : MonoBehaviour
         if (inGreen)
         {
             player.Translate(Vector3.up * greenForce * Time.deltaTime);
-            PlayAnim("normal");   
+
+            scoreManager.EnterGreenZone();
+
+            PlayAnim("normal");
         }
         else if (inYellow)
         {
             player.Translate(Vector3.up * yellowForce * Time.deltaTime);
+
+            scoreManager.EnterYellowZone();
+
             PlayAnim("Phase2");
         }
         else
         {
             player.Translate(Vector3.up * redForce * Time.deltaTime);
+
+            scoreManager.EnterRedZone();
             PlayAnim("Phase3");
         }
     }

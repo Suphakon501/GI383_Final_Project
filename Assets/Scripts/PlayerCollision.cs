@@ -16,7 +16,7 @@ public class PlayerCollision : MonoBehaviour
     public float blinkSpeed = 0.1f;
 
     [Header("UI Reference")]
-    public GameObject gameOverUI; // ลาก Game Over Panel มาใส่ที่นี่ (ตัวเดียวกับที่ใช้ในระบบกล้อง)
+    public GameObject gameOverUI; 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -51,7 +51,6 @@ public class PlayerCollision : MonoBehaviour
     {
         ldlSlider.value += increaseAmount;
 
-        // เมื่อค่า LDL เต็มหลอด (MaxValue)
         if (ldlSlider.value >= ldlSlider.maxValue)
         {
             GameOver();
@@ -62,13 +61,11 @@ public class PlayerCollision : MonoBehaviour
     {
         Debug.Log("Game Over: LDL Full!");
 
-        // 1. แสดง UI ตัวเดียวกับระบบกล้อง
         if (gameOverUI != null)
         {
             gameOverUI.SetActive(true);
         }
 
-        // 2. หยุดเวลาเกม
         Time.timeScale = 0f;
     }
 }

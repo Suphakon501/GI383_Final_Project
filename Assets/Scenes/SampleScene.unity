@@ -1006,7 +1006,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  interval: 1
+  greenScorePerSecond: 1.5
+  yellowScorePerSecond: 1
+  redScorePerSecond: 0
   scoreText: {fileID: 652327077}
   isRunning: 1
 --- !u!4 &802892093
@@ -6123,6 +6125,7 @@ MonoBehaviour:
   yellowForce: 5
   redForce: 0
   animator: {fileID: 1840973594}
+  scoreManager: {fileID: 802892092}
 --- !u!4 &908893603
 Transform:
   m_ObjectHideFlags: 0
