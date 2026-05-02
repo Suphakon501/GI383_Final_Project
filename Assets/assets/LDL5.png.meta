@@ -1,0 +1,1349 @@
+fileFormatVersion: 2
+guid: f06198cf238ab224ea1af0a683e67367
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LDL5_0
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 4503
+        width: 644
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aeeb967dd144eb4589cfdb6a063a115
+      internalID: -552548806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_1
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 4503
+        width: 644
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b50f5bbf307ba448040ef126841d25
+      internalID: -1672670591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_2
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 4503
+        width: 644
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eca18e8033d0a04387048794a1292de
+      internalID: 55150031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_3
+      rect:
+        serializedVersion: 2
+        x: 4143
+        y: 4503
+        width: 644
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4672f89f2073134d963d51280e23cc7
+      internalID: -1010267867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_4
+      rect:
+        serializedVersion: 2
+        x: 5423
+        y: 4508
+        width: 644
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab35037aee9a63429040995d16443e2
+      internalID: 763278948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_5
+      rect:
+        serializedVersion: 2
+        x: 6703
+        y: 4508
+        width: 639
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9398bd8dc337d9348bec9ee7f7b38218
+      internalID: -1738067866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_6
+      rect:
+        serializedVersion: 2
+        x: 7983
+        y: 4513
+        width: 639
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b3c70e74b0e464098d8d05e1bc20eb
+      internalID: -1033693152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_7
+      rect:
+        serializedVersion: 2
+        x: 9268
+        y: 4513
+        width: 629
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d46cf5f060503348a94809b16e939ed
+      internalID: -1392761939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3798
+        width: 624
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c141aaff99e4d4a8b509761361a360
+      internalID: -1619662298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_9
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 3803
+        width: 624
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4593806a4e51a4180a3d4ff60cee1d
+      internalID: 1282224271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_10
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 3808
+        width: 619
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b974bbd8cc5dec948a007224e92f6eea
+      internalID: 31513293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_11
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 3813
+        width: 609
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905bfa7a108e5ef45b6880632ef6baf3
+      internalID: 535586303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_12
+      rect:
+        serializedVersion: 2
+        x: 5433
+        y: 3818
+        width: 604
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92ae3f129be897479d939c5437620cb
+      internalID: -610607956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_13
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 3823
+        width: 599
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c8d2d941a6fa5458afa4b4f7f7c41b
+      internalID: -577325739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_14
+      rect:
+        serializedVersion: 2
+        x: 7993
+        y: 3828
+        width: 594
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407d5e45a1f1a3340992d6e3e220d5d2
+      internalID: -486566624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_15
+      rect:
+        serializedVersion: 2
+        x: 9278
+        y: 3833
+        width: 584
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7156761447d74941bebae4c54d0ca25
+      internalID: 291445101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 3123
+        width: 579
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e330a67f32f650842b2ba916f9befbf1
+      internalID: 313123016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_17
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3128
+        width: 579
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea70628e1a2f1c4b90e77218256d01b
+      internalID: 1364275098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_18
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 3138
+        width: 584
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7a1296e117786479bfead62539d47f
+      internalID: -1342737409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_19
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 3143
+        width: 584
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43013ebf45ecc34ebfcc834596fe64f
+      internalID: 1828277555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_20
+      rect:
+        serializedVersion: 2
+        x: 5433
+        y: 3148
+        width: 594
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11133d853c196604ab0ee69b7ece1521
+      internalID: 194741867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_21
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 3153
+        width: 594
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42719d74e6130814b9606830f091aeca
+      internalID: -357097638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_22
+      rect:
+        serializedVersion: 2
+        x: 7993
+        y: 3153
+        width: 594
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1abed4b77fc74d4b9971f06bb0aad40
+      internalID: -926696756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_23
+      rect:
+        serializedVersion: 2
+        x: 9273
+        y: 3158
+        width: 594
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368c2dd01073a0b43bedd27e60e8e7eb
+      internalID: -852281633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2443
+        width: 599
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a46f7136b97d57459fcc03bd8d9e3cb
+      internalID: -1943418303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_25
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 2448
+        width: 599
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97377d1187bc514281f46061fece3ae
+      internalID: -126508096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_26
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 2448
+        width: 599
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafdc4d3ebea740488772cf1c70e9fb7
+      internalID: -1363580484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_27
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 2453
+        width: 599
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c91dcf9b5446d40a46978d1cf801df
+      internalID: 261180093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_28
+      rect:
+        serializedVersion: 2
+        x: 5433
+        y: 2453
+        width: 599
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bfe3138b4d4764b8d5e8c2453b9e5b
+      internalID: 311187357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_29
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 2453
+        width: 599
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761e185cc0fdf0e478cdf06d3c9edeea
+      internalID: -1909276129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_30
+      rect:
+        serializedVersion: 2
+        x: 7993
+        y: 2453
+        width: 599
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c932d37748aa40d4093eb847ab05a126
+      internalID: -121682366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_31
+      rect:
+        serializedVersion: 2
+        x: 9273
+        y: 2458
+        width: 599
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d1d5ad76732c94cb4e0fd39a88c79f
+      internalID: 1596770594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_32
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1738
+        width: 599
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d09840ce3e133446a6da404fd1ea554
+      internalID: 270263636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_33
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1733
+        width: 599
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d184970e3ec92b0409684f0d113b3214
+      internalID: 1480079819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_34
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 1733
+        width: 599
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef3b2037d07533418897807f09b7ef4
+      internalID: 1724055123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_35
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 1733
+        width: 599
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33142229d968634998bc25eabc2ac33
+      internalID: 1537603986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_36
+      rect:
+        serializedVersion: 2
+        x: 5433
+        y: 1728
+        width: 599
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb5169f477107a4b83237df0d7137fc
+      internalID: 1930689299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_37
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 1728
+        width: 599
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd7e1923818b4a4b9f9b9e8b2c04537
+      internalID: -365767044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_38
+      rect:
+        serializedVersion: 2
+        x: 7993
+        y: 1723
+        width: 594
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9a7124894063740b2658661ec502f0
+      internalID: -1387278611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_39
+      rect:
+        serializedVersion: 2
+        x: 9273
+        y: 1713
+        width: 594
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d651a4ea8390884fa2984e82bce612f
+      internalID: -1268663412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_40
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 988
+        width: 594
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08825952a97c5a04fae607129ff0d0ea
+      internalID: 809423008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_41
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 978
+        width: 584
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2d00a04d4243641bc5ce3c6017409e
+      internalID: -1375302451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_42
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 968
+        width: 579
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb70f8902c094c49a7f87710640a0e6
+      internalID: 1653344018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_43
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 958
+        width: 579
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cd580cd43122b40ae76958eaae7b83
+      internalID: 1483425062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_44
+      rect:
+        serializedVersion: 2
+        x: 5433
+        y: 948
+        width: 594
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340824c47299d8b4591f9314eb502dcd
+      internalID: 699788399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_45
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 943
+        width: 599
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a8551017929da43b18ff2a56622374
+      internalID: 1739085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_46
+      rect:
+        serializedVersion: 2
+        x: 7993
+        y: 933
+        width: 604
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f243bcaccacd00c45a9469801f20cc40
+      internalID: -1744829665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_47
+      rect:
+        serializedVersion: 2
+        x: 9268
+        y: 928
+        width: 619
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8817de04f43d145b8d340d0ef61b20
+      internalID: 1452936004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_48
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 198
+        width: 624
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab26b16d41fcd514d8c6c6b38c1b69fa
+      internalID: -688811505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_49
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 193
+        width: 629
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6f4cbaba1907b42b569bdc8d7e14db
+      internalID: 816564912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_50
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 188
+        width: 639
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed979eedb3c2410449ec4ecbda8e0f72
+      internalID: -1175015484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_51
+      rect:
+        serializedVersion: 2
+        x: 4143
+        y: 188
+        width: 644
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64a7fe776b2284419d16299265d38ce
+      internalID: -477488748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL5_52
+      rect:
+        serializedVersion: 2
+        x: 5423
+        y: 183
+        width: 644
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a24a9031c3de24dbe54fb97440da60
+      internalID: -802100008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8497cadb79b410a49bf85c965f37b0e4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LDL5_0: -552548806
+      LDL5_1: -1672670591
+      LDL5_10: 31513293
+      LDL5_11: 535586303
+      LDL5_12: -610607956
+      LDL5_13: -577325739
+      LDL5_14: -486566624
+      LDL5_15: 291445101
+      LDL5_16: 313123016
+      LDL5_17: 1364275098
+      LDL5_18: -1342737409
+      LDL5_19: 1828277555
+      LDL5_2: 55150031
+      LDL5_20: 194741867
+      LDL5_21: -357097638
+      LDL5_22: -926696756
+      LDL5_23: -852281633
+      LDL5_24: -1943418303
+      LDL5_25: -126508096
+      LDL5_26: -1363580484
+      LDL5_27: 261180093
+      LDL5_28: 311187357
+      LDL5_29: -1909276129
+      LDL5_3: -1010267867
+      LDL5_30: -121682366
+      LDL5_31: 1596770594
+      LDL5_32: 270263636
+      LDL5_33: 1480079819
+      LDL5_34: 1724055123
+      LDL5_35: 1537603986
+      LDL5_36: 1930689299
+      LDL5_37: -365767044
+      LDL5_38: -1387278611
+      LDL5_39: -1268663412
+      LDL5_4: 763278948
+      LDL5_40: 809423008
+      LDL5_41: -1375302451
+      LDL5_42: 1653344018
+      LDL5_43: 1483425062
+      LDL5_44: 699788399
+      LDL5_45: 1739085
+      LDL5_46: -1744829665
+      LDL5_47: 1452936004
+      LDL5_48: -688811505
+      LDL5_49: 816564912
+      LDL5_5: -1738067866
+      LDL5_50: -1175015484
+      LDL5_51: -477488748
+      LDL5_52: -802100008
+      LDL5_6: -1033693152
+      LDL5_7: -1392761939
+      LDL5_8: -1619662298
+      LDL5_9: 1282224271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1349 @@
+fileFormatVersion: 2
+guid: d5405402fe504f24bb7e39e2ef5be54f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LDL7_0
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 4348
+        width: 184
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f589559b229ddb4da202c009c198991
+      internalID: -1668816481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_1
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 4348
+        width: 184
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ff5b5e87e4e88419620b49dc152e90
+      internalID: -74990183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_2
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 4348
+        width: 179
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b0bded27abc4e4b8e26d3d5054655c
+      internalID: -1002886014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_3
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 4348
+        width: 179
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fa558af0071704785d632e46bcc060
+      internalID: 1344051027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_4
+      rect:
+        serializedVersion: 2
+        x: 5398
+        y: 4348
+        width: 219
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ea52dfbe02b774e8b9df3b3f0e7600
+      internalID: -958778379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_5
+      rect:
+        serializedVersion: 2
+        x: 6678
+        y: 4348
+        width: 244
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27620019000fbb7409149d3f6194cd79
+      internalID: 1308308156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_6
+      rect:
+        serializedVersion: 2
+        x: 7958
+        y: 4353
+        width: 299
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59892fc6649cba443a1b8304c6ba37bd
+      internalID: 568454084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_7
+      rect:
+        serializedVersion: 2
+        x: 9238
+        y: 4353
+        width: 359
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d54dbdbaaf33054495e2fd1fc7608c3
+      internalID: 558511999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 3633
+        width: 429
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579b3573bb962c64e843d35e75e4c40c
+      internalID: -1016308213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_9
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 3633
+        width: 439
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d09831ff3a97f14882e1cc2ada0c002
+      internalID: 271127981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_10
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 3638
+        width: 449
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b030df961ffd4894195948fc0f4fda3c
+      internalID: 231940475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_11
+      rect:
+        serializedVersion: 2
+        x: 4113
+        y: 3638
+        width: 459
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d28be07b5683048a5f8548acdcbf15
+      internalID: 87799954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_12
+      rect:
+        serializedVersion: 2
+        x: 5388
+        y: 3638
+        width: 474
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928601aa18b12fc44a02c06b87034a55
+      internalID: -663709864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_13
+      rect:
+        serializedVersion: 2
+        x: 6668
+        y: 3638
+        width: 479
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11faf6e2d3b2784469e36b9cabe0f484
+      internalID: 1760697412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_14
+      rect:
+        serializedVersion: 2
+        x: 7948
+        y: 3643
+        width: 489
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00e4fc4f4bf83a4cbaad3ebaabb485a
+      internalID: 559559270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_15
+      rect:
+        serializedVersion: 2
+        x: 9228
+        y: 3643
+        width: 494
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed032dbbe9feba4488470b0092e0d85
+      internalID: -1375049336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2923
+        width: 499
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db58357577fa8b408ed2746850b91bb
+      internalID: 849230108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_17
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 2923
+        width: 494
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947c2265334b1cf4ca0b58a562742825
+      internalID: -2042545060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_18
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 2918
+        width: 489
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c4be083c533374db19fbd7c4b8931a
+      internalID: 993875727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_19
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 2918
+        width: 479
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc7301404ce4d44b8cb0ff967b99a7c
+      internalID: 454856506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_20
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 2918
+        width: 464
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a84181f3840034da1b230afb49fc43
+      internalID: -1556596668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_21
+      rect:
+        serializedVersion: 2
+        x: 6673
+        y: 2918
+        width: 459
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22cb0ceadc395145be45c65bfb3e6c3
+      internalID: 1833071905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_22
+      rect:
+        serializedVersion: 2
+        x: 7953
+        y: 2913
+        width: 454
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e7b678feeb43c48b6088228ddb7489
+      internalID: -1792667089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_23
+      rect:
+        serializedVersion: 2
+        x: 9233
+        y: 2913
+        width: 444
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b3a5343ce7abb408d1b4fa732bdd05
+      internalID: -1541944663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_24
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2193
+        width: 434
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a49bcc4895a2e449981f10d74116faa
+      internalID: -1117768068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_25
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 2193
+        width: 429
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dd46f0d2ea16045ac2c230057b39aa
+      internalID: -1784694010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_26
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2188
+        width: 419
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75dcf56f17ad66438257d67332f3848
+      internalID: 52778228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_27
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 2188
+        width: 419
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdea1d95d5446e42a387a78fbd7709f
+      internalID: -1437504390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_28
+      rect:
+        serializedVersion: 2
+        x: 5403
+        y: 2188
+        width: 424
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9573430d7901124e81a3d57551adb7d
+      internalID: 558934257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_29
+      rect:
+        serializedVersion: 2
+        x: 6683
+        y: 2188
+        width: 424
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053d4c66848c5104295082c5665de9f1
+      internalID: 631116164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_30
+      rect:
+        serializedVersion: 2
+        x: 7963
+        y: 2188
+        width: 429
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d689cd1ed4bb5da42b780cb8e1d977da
+      internalID: 347169296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_31
+      rect:
+        serializedVersion: 2
+        x: 9243
+        y: 2188
+        width: 439
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6905878ffc06c8741a5a598285d656ae
+      internalID: 1278853204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_32
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1468
+        width: 444
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8abbedcb8fb51498a395e5b4f54b2a
+      internalID: 1108494188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_33
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1473
+        width: 459
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336f55340d7ff974aa686d6e277a4013
+      internalID: -1362441073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_34
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1473
+        width: 469
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50978d859cb9c22429683e74be2161ab
+      internalID: 2017636953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_35
+      rect:
+        serializedVersion: 2
+        x: 4113
+        y: 1473
+        width: 484
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4324ae98f8f47bb459e6a938a8a0f3d9
+      internalID: -791705480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_36
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 1473
+        width: 489
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95eb80341248d744cbb7711c7466f38b
+      internalID: 1947150095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_37
+      rect:
+        serializedVersion: 2
+        x: 6673
+        y: 1478
+        width: 494
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013e29dafe3f877438792cc56e7777bf
+      internalID: 1658649494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_38
+      rect:
+        serializedVersion: 2
+        x: 7953
+        y: 1478
+        width: 494
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7104a0f4bdb14245930ad1ff55cf6ad
+      internalID: -421228564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_39
+      rect:
+        serializedVersion: 2
+        x: 9228
+        y: 1478
+        width: 499
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295dede7b83fec54d9e9d6d187431b22
+      internalID: 535851976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 763
+        width: 494
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86063faa9377294bbc78c01126aff4d
+      internalID: 709579421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_41
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 763
+        width: 489
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbd0b2fc635e42409cc77d2b5978159
+      internalID: -886926023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_42
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 763
+        width: 484
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1283e88cf3548448c1bfb8aee04736
+      internalID: 863941343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_43
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 758
+        width: 479
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884737d7adc6cbf419279cfd10f5010e
+      internalID: -2011583010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_44
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 758
+        width: 464
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22bfd83696bf734ab23c1bc4aa2a08d
+      internalID: -254852623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_45
+      rect:
+        serializedVersion: 2
+        x: 6673
+        y: 758
+        width: 459
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153fd569ee531b64daa75039a91f0867
+      internalID: -409086680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_46
+      rect:
+        serializedVersion: 2
+        x: 7953
+        y: 758
+        width: 454
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44326d1c62b38b24cbf952af1ba728ab
+      internalID: -1713586385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_47
+      rect:
+        serializedVersion: 2
+        x: 9233
+        y: 753
+        width: 439
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ceb1860be231941b5b1d571a8ccdac
+      internalID: -1901579644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_48
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 33
+        width: 429
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5223a51ee728a5b47b5d8604f7919ced
+      internalID: -1042211029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_49
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 33
+        width: 369
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4463ebf5e8dc049b40b1b8782e3d2b
+      internalID: 1431099384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_50
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 28
+        width: 284
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60e8b9a1f4e09148a46e74747bcae1f
+      internalID: -170277593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_51
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 28
+        width: 204
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44eae5264484614a9c2d809eef3d818
+      internalID: 757282488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDL7_52
+      rect:
+        serializedVersion: 2
+        x: 5403
+        y: 28
+        width: 179
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5e3d1109bd3ae4c9470d64dc2f3559
+      internalID: 1705584769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da96f4e8935e027498bb52aeefb90ec0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LDL7_0: -1668816481
+      LDL7_1: -74990183
+      LDL7_10: 231940475
+      LDL7_11: 87799954
+      LDL7_12: -663709864
+      LDL7_13: 1760697412
+      LDL7_14: 559559270
+      LDL7_15: -1375049336
+      LDL7_16: 849230108
+      LDL7_17: -2042545060
+      LDL7_18: 993875727
+      LDL7_19: 454856506
+      LDL7_2: -1002886014
+      LDL7_20: -1556596668
+      LDL7_21: 1833071905
+      LDL7_22: -1792667089
+      LDL7_23: -1541944663
+      LDL7_24: -1117768068
+      LDL7_25: -1784694010
+      LDL7_26: 52778228
+      LDL7_27: -1437504390
+      LDL7_28: 558934257
+      LDL7_29: 631116164
+      LDL7_3: 1344051027
+      LDL7_30: 347169296
+      LDL7_31: 1278853204
+      LDL7_32: 1108494188
+      LDL7_33: -1362441073
+      LDL7_34: 2017636953
+      LDL7_35: -791705480
+      LDL7_36: 1947150095
+      LDL7_37: 1658649494
+      LDL7_38: -421228564
+      LDL7_39: 535851976
+      LDL7_4: -958778379
+      LDL7_40: 709579421
+      LDL7_41: -886926023
+      LDL7_42: 863941343
+      LDL7_43: -2011583010
+      LDL7_44: -254852623
+      LDL7_45: -409086680
+      LDL7_46: -1713586385
+      LDL7_47: -1901579644
+      LDL7_48: -1042211029
+      LDL7_49: 1431099384
+      LDL7_5: 1308308156
+      LDL7_50: -170277593
+      LDL7_51: 757282488
+      LDL7_52: 1705584769
+      LDL7_6: 568454084
+      LDL7_7: 558511999
+      LDL7_8: -1016308213
+      LDL7_9: 271127981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
