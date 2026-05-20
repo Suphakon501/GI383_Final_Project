@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class PlayerCollision : MonoBehaviour
@@ -14,9 +15,6 @@ public class PlayerCollision : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public float blinkDuration = 0.5f;
     public float blinkSpeed = 0.1f;
-
-    [Header("UI Reference")]
-    public GameObject gameOverUI; 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -59,13 +57,13 @@ public class PlayerCollision : MonoBehaviour
 
     void GameOver()
     {
-        Debug.Log("Game Over: LDL Full!");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("InfoScene");
+    }
 
-        if (gameOverUI != null)
-        {
-            gameOverUI.SetActive(true);
-        }
-
-        Time.timeScale = 0f;
+    public void GoToInfoScene()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("InfoScene");
     }
 }
