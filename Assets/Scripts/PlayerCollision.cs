@@ -16,12 +16,23 @@ public class PlayerCollision : MonoBehaviour
     public float blinkDuration = 0.5f;
     public float blinkSpeed = 0.1f;
 
+    [Header("Sound Effect")]
+    public AudioSource audioSource;
+    public AudioClip hitSound;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("LDL"))
         {
             Vector3 hitPos = other.bounds.center;
 
+            // เล่นเสียงตอนชน
+            if (audioSource != null && hitSound != null)
+            {
+                audioSource.PlayOneShot(hitSound);
+            }
+
+            // Particle
             if (hitParticle != null)
             {
                 GameObject p = Instantiate(hitParticle, hitPos, Quaternion.identity);
@@ -36,12 +47,14 @@ public class PlayerCollision : MonoBehaviour
     IEnumerator Blink()
     {
         float timer = 0f;
+
         while (timer < blinkDuration)
         {
             spriteRenderer.enabled = !spriteRenderer.enabled;
             yield return new WaitForSeconds(blinkSpeed);
             timer += blinkSpeed;
         }
+
         spriteRenderer.enabled = true;
     }
 
