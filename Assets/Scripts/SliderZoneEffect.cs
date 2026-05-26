@@ -10,10 +10,14 @@ public class SliderZoneEffect : MonoBehaviour
     public RectTransform yellowZone;
     public RectTransform redZone;
 
-    [Header("Float Force")]
+    [Header("Base Float Force")]
     public float greenForce = 8f;
     public float yellowForce = 5f;
     public float redForce = 2f;
+
+    [Header("Difficulty Scaling")]
+    public float difficultyMultiplier = 1f;
+    public float difficultyIncreaseRate = 0.01f;
 
     [Header("Animation")]
     public Animator animator;
@@ -23,35 +27,69 @@ public class SliderZoneEffect : MonoBehaviour
 
     private string currentState = "";
 
+    private int currentPhase = 1;
+    private float gameTime;
+
     void Update()
     {
+        gameTime += Time.deltaTime;
+
+        UpdatePhase();
+
+        // หลังเข้า phase 3 จะเพิ่ม difficulty เรื่อยๆ
+        if (currentPhase >= 3)
+        {
+            difficultyMultiplier += difficultyIncreaseRate * Time.deltaTime;
+        }
+
         bool inGreen = IsOverlapping(slider, greenZone);
         bool inYellow = IsOverlapping(slider, yellowZone);
         bool inRed = IsOverlapping(slider, redZone);
 
         if (inGreen)
         {
-            player.Translate(Vector3.up * greenForce * Time.deltaTime);
+            MovePlayer(greenForce);
 
             scoreManager.EnterGreenZone();
-
-            PlayAnim("normal");
         }
         else if (inYellow)
         {
-            player.Translate(Vector3.up * yellowForce * Time.deltaTime);
+            MovePlayer(yellowForce);
 
             scoreManager.EnterYellowZone();
+        }
+        else
+        {
+            MovePlayer(redForce);
 
+            scoreManager.EnterRedZone();
+        }
+    }
+
+    void UpdatePhase()
+    {
+        if (gameTime >= 120f)
+        {
+            currentPhase = 3;
+            PlayAnim("Phase3");
+        }
+        else if (gameTime >= 60f)
+        {
+            currentPhase = 2;
             PlayAnim("Phase2");
         }
         else
         {
-            player.Translate(Vector3.up * redForce * Time.deltaTime);
-
-            scoreManager.EnterRedZone();
-            PlayAnim("Phase3");
+            currentPhase = 1;
+            PlayAnim("normal");
         }
+    }
+
+    void MovePlayer(float baseForce)
+    {
+        float finalForce = baseForce * difficultyMultiplier;
+
+        player.Translate(Vector3.up * finalForce * Time.deltaTime);
     }
 
     void PlayAnim(string stateName)
